@@ -1,3 +1,3 @@
 FROM openjdk:21
-ADD target/spring-deploy.jar  spring-deploy.jar
+ADD target/spring-deplo.jar  spring-deplo.jar
 ENTRYPOINT ["java","-jar","/spring-deploy.jar"]
