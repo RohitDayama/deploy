@@ -6,8 +6,7 @@
 trigger:
 - main
 
-pool:
-  vmImage: b22
+pool: b22
 
 steps:
 - script: echo Hello, world!
